@@ -430,6 +430,7 @@ section {
 
 /* footer */
 footer{
+  padding-top: 120px;
   background: #474747;
 }
 .footer_copy{
@@ -439,3 +440,52 @@ footer{
   line-height: 24px;
   text-align: center;
 }
+.footer_big{
+  padding-bottom: 100px;
+  border-bottom: 1px solid #414536;
+  color: #DBDFD0;
+}
+.footer_left{
+  width: 30%;
+}
+.footer_nav{
+  width: 17%;
+}
+.footer_right{
+  width: 35%;
+}
+.footer_tit{
+  color: #fff;
+}
+.footer_logo{
+
+}
+.footer_img{
+  width: calc((100% - 15px) / 2);
+  margin-bottom: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.footer_img img{
+  transition: 0.5s;
+}
+.footer_img:hover img{
+  transform: scale(1.2)
+}
+.footer_img::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.footer_img:hover::before{
+  opacity: 0.5;
+}
+
