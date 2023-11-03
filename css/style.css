@@ -413,3 +413,17 @@ section {
 }
 
 /* blog */
+.blog_top{
+  align-items: center;
+  margin-bottom: 64px;
+}
+.blog_left{
+  width: 50%;
+}
+.blog_right{
+  width: 50%;
+  padding-left: 24px;
+}
+.blog_right .blog_card{
+  width: calc(50% - 12px);
+}
