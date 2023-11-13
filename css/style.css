@@ -522,3 +522,28 @@ footer{
   border-width: 12.5px 0 12.5px 20px;
   border-color: transparent transparent transparent #AD343E;
 }
+.count{
+  margin: 100px 0 500px;
+}
+
+
+.count {
+	counter-reset: test;
+}
+.count li::before{
+  counter-increment: test;
+	content: counter(test);
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.grey{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  background: grey;
+  z-index: -1;
+}
