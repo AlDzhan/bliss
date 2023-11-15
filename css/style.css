@@ -187,6 +187,7 @@ section {
   background: #ad343e;
   color: #fff;
   border-color: #ad343e;
+  text-align: center;
 }
 .btn__red:hover {
   border-color: #2c2f24;
@@ -578,3 +579,21 @@ footer{
 .form_input{
   width: calc(50% - 12px);
 }
+.form_input__big{
+  width: 100%;
+}
+.form-wrap{
+  padding-bottom: 0;
+  margin-bottom: -240px;
+  z-index: 10;
+  position: relative;
+}
+.map{
+  padding-top: 0;
+}
+
+
+
+
+
+
